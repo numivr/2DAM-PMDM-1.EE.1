@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen centrada en la parte superior con tamaño reducido -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/xavibo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Primer TextView debajo de la imagen -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xavibo &lt;3"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintBottom_toTopOf="@id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Segundo TextView debajo del primer TextView -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Estoy cansado de estar triste, ya está
+Quiero que alguien me pellizque y despertar
+Llámame cuando sea libre, a ver qué tal
+Que ya no quiero volverte a llorar
+Estoy cansado de estar triste y ya está
+Y quiero que alguien me pellizque y despertar
+Llámame cuando sea libre, a ver qué tal
+Que ya no quiero volverte a llorar
+O todo me sale mal o nada me sale bien
+He convertío en hospital la habitación del hotel
+Se me oye llorando a través de la pared
+Te dejé de contestar, pero no de querer
+Porque te fuiste una vez
+Y vivo en un fin de semana
+Estoy haciendo cosas que me matarías si te lo contara
+Se me fue el brillo en la cara
+Mira que me drogo y solo me coloco con lo que me dices tú
+Y ahora el baño parece un iglú"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

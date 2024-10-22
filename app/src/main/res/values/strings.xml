@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">2DAM-PMDM-1.EE.1</string>
+    <string name="ejercicio_1">Ejercicio 1</string>
+    <string name="ejercicio_2">Ejercicio 2</string>
+    <string name="ejercicio_4">Ejercicio 4</string>
+    <string name="ejercicio_5">Ejercicio 5</string>
+    <string name="ejercicio_6">Ejercicio 6</string>
+    <string name="ejercicio_3">Ejercicio 3</string>
+    <string name="introduzca_una_url">Introduzca una URL</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="navegar_en_10_segundos">Navegar en 10 segundos</string>
+    <string name="est_s_en_la_segunda_activity">¡Estás en la Segunda Activity!</string>
+    <string name="programacion_multimedia_y_dispositivos_moviles">programacion multimedia y dispositivos moviles</string>
+    <string name="rojo">rojo</string>
+    <string name="azul">azul</string>
+    <string name="verde">verde</string>
+</resources>
