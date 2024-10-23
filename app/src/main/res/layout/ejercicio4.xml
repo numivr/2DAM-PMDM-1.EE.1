@@ -3,67 +3,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Primer FrameLayout (esquina superior izquierda) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#FF0000"
+        android:background="#B74DC9"
         android:layout_gravity="top|left"/>
 
-    <!-- Segundo FrameLayout (superior centro) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#00FF00"
+        android:background="#9F94C9"
         android:layout_gravity="top|center_horizontal"/>
 
-    <!-- Tercer FrameLayout (esquina superior derecha) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#0000FF"
+        android:background="#F1CECC"
         android:layout_gravity="top|right"/>
 
-    <!-- Cuarto FrameLayout (centro izquierda) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#FFFF00"
+        android:background="#DADFFA"
         android:layout_gravity="center_vertical|left"/>
 
-    <!-- Quinto FrameLayout (centro) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#FF00FF"
+        android:background="#907690"
         android:layout_gravity="center"/>
 
-    <!-- Sexto FrameLayout (centro derecha) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#00FFFF"
+        android:background="#B1F1F1"
         android:layout_gravity="center_vertical|right"/>
 
-    <!-- Séptimo FrameLayout (inferior izquierda) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#FFA500"
+        android:background="#D2BE9F"
         android:layout_gravity="bottom|left"/>
 
-    <!-- Octavo FrameLayout (inferior centro) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#800080"
+        android:background="#98B2B5"
         android:layout_gravity="bottom|center_horizontal"/>
 
-    <!-- Noveno FrameLayout (inferior derecha) -->
     <FrameLayout
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#008000"
-        android:layout_gravity="bottom|right"/>
+        android:layout_gravity="bottom|right"
+        android:background="#909EF4" />
 
 </FrameLayout>

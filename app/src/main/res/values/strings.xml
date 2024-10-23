@@ -10,8 +10,8 @@
     <string name="comprobar">Comprobar</string>
     <string name="navegar_en_10_segundos">Navegar en 10 segundos</string>
     <string name="est_s_en_la_segunda_activity">¡Estás en la Segunda Activity!</string>
-    <string name="programacion_multimedia_y_dispositivos_moviles">programacion multimedia y dispositivos moviles</string>
-    <string name="rojo">rojo</string>
-    <string name="azul">azul</string>
-    <string name="verde">verde</string>
+    <string name="programacion_multimedia_y_dispositivos_moviles">Programación multimedia y dispositivos móviles</string>
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
 </resources>

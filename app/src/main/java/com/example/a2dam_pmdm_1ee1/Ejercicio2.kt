@@ -16,7 +16,7 @@ class Ejercicio2 : AppCompatActivity() {
         val button = findViewById<Button>(R.id.button)
 
         button.setOnClickListener {
-            // Cremos el intent que nos llevará a la segunda pantalla
+            // Creamos el intent que nos llevará a la segunda pantalla
             val intent = Intent(this, Ejercicio2_2::class.java)
 
             // Creamos el pendingIntent para usarlo después

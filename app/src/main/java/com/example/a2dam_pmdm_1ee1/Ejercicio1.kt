@@ -20,12 +20,11 @@ class Ejercicio1 : AppCompatActivity() {
             val urlText = et_url.text.toString()
 
             if (urlText.isNotEmpty() && android.util.Patterns.WEB_URL.matcher(urlText).matches()) {
-                // Crear un Intent para abrir la URL en el navegador
+                // Creamos un Intent para abrir la URL en el navegador
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(urlText))
                 startActivity(intent)
                 et_url.text = null
             } else {
-                // Mostrar un mensaje si la URL no es válida
                 Toast.makeText(this, "Introduce una URL válida", Toast.LENGTH_LONG).show()
             }
         }

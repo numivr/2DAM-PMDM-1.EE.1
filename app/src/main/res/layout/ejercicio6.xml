@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Imagen centrada en la parte superior con tamaño reducido -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
@@ -19,7 +18,6 @@
         android:scaleType="centerCrop"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <!-- Primer TextView debajo de la imagen -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -32,7 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp" />
 
-    <!-- Segundo TextView debajo del primer TextView -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -53,9 +50,7 @@ Te dejé de contestar, pero no de querer
 Porque te fuiste una vez
 Y vivo en un fin de semana
 Estoy haciendo cosas que me matarías si te lo contara
-Se me fue el brillo en la cara
-Mira que me drogo y solo me coloco con lo que me dices tú
-Y ahora el baño parece un iglú"
+Se me fue el brillo en la cara"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/textView2"
         app:layout_constraintEnd_toEndOf="parent"

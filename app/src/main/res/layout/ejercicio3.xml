@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <!-- LLPadre -->
 
-    <!-- TextView en la parte superior para el título -->
+
+
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/programacion_multimedia_y_dispositivos_moviles"
-        android:textSize="18sp"
         android:background="#D3D3D3"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/programacion_multimedia_y_dispositivos_moviles"
         android:textColor="#000000"
-        android:padding="16dp" />
+        android:textSize="18sp" />
 
-    <!-- Sección azul y blanca, con LinearLayouts anidados -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <!-- Área azul izquierda -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#0000FF" />
 
-        <!-- Área blanca central con botones -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical"
+            android:background="#FFFFFF"
             android:gravity="center"
-            android:background="#FFFFFF">
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/botonRojo"
@@ -59,7 +57,6 @@
                 android:text="@string/verde" />
         </LinearLayout>
 
-        <!-- Área azul derecha -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
